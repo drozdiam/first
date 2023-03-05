@@ -17,15 +17,3 @@ Route::get('/', function () {
     return 'aaaaaaaaaaaaa';
 });
 
-Route::get('/my_page', function(){
-    return'this is my page';
-});
-Route::get('/sity', function (){
-    return'Moscow';
-} );
-Route::get('/country', function (){
-    return 'Russia';
-});
-Route::get('/ya',function (){
-   return 'Яндекс';
-});
