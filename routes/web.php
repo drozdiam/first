@@ -17,3 +17,5 @@ Route::get('/', function () {
     return 'aaaaaaaaaaaaa';
 });
 
+Route::get('/my_page', 'App\Http\Controllers\MyPlaseController@index');
+Route::get('/New', 'App\Http\Controllers\NewController@somth');
