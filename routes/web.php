@@ -19,3 +19,4 @@ Route::get('/', function () {
 
 Route::get('/my_page', 'App\Http\Controllers\MyPlaseController@index');
 Route::get('/New', 'App\Http\Controllers\NewController@somth');
+Route::get('/second','App\Http\Controllers\SecondController@second');
